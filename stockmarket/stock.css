@@ -1,0 +1,144 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: white;
+background-color: #010129;
+}
+/* header */
+header{
+    margin: 2.2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* chart */
+
+.charting{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    background-color: #010145;
+    height: 35rem;
+    width: 60%;
+    display: inline-block;
+}
+
+.chart-container{
+    height: 90%;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+.btn-container{
+    background-color: transparent;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;;
+}
+.chart-btn{
+    border-radius: 1rem;
+    background-color: #010166;
+    color: white;
+    margin: 2rem;
+    width: 5rem;
+    margin-top: 3rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    border-color: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chartjs-tooltip {
+    position: absolute;
+    background: #010145;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    pointer-events: none;
+    transition: opacity 0.1s;
+    opacity: 0;
+   
+}
+#chartjs-tooltip2 {
+    position: absolute;
+    background: #010145;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    pointer-events: none;
+    transition: opacity 0.1s;
+    opacity: 0;
+    height: 2rem;
+    
+}
+
+#myChart{
+    
+    background-color: transparent;
+}
+#peak-value{
+    position: relative;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+#min-value{
+    position: relative;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+
+/* list */
+.list{
+    display: inline-block;
+    position: absolute;
+    margin-right: 5%;
+    right: 0;
+}
+.list-div{
+    margin: 0.5rem;
+}
+.btn{
+    font-size: 1rem;
+    padding: 0.3rem;
+    background-color: #010166;
+    width: 4.3rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+.list-span{
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+/* detail section */
+.detail{
+    width: 60%;
+}
+.detail-header{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.name{
+    margin: 1rem;
+    margin-left: 2rem;
+}
+.percent{
+    margin: 1rem;
+}
+.cost{
+    margin: 1rem;
+}
+.detail-content{
+    margin: 1rem;
+    margin-left: 2rem;
+}
+

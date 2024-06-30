@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stock.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+</head>
+<body>
+    <header><h1>Stock Market Analysis</h1></header>
+
+   
+    <div class="charting">
+        <div class="chart-container">
+            <div id="peak-value"></div>
+            <div id="min-value"></div>
+            <canvas id="myChart"></canvas>
+            <div id="chartjs-tooltip"></div>
+            <div id="chartjs-tooltip2"></div>
+        </div>
+        <div class="btn-container">
+            <button id="month-1"class="chart-btn">1 Month</button>
+            <button id="month-3"class="chart-btn">3 Month</button>
+            <button id="year-1"class="chart-btn">1 Year</button>
+            <button id="year-5"class="chart-btn">5 Year</button>
+        </div>
+    </div>
+    <div class="list"></div>
+    
+    <div class="detail">
+        <div class="detail-header">
+            <span class="name"></span>
+            <span class="percent"></span>
+            <span class="cost"></span>
+        </div>
+        <div class="detail-content"></div>
+    </div>
+
+
+    <script type="module" src="stock.js"></script>
+   
+</body>
+</html>
